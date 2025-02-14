@@ -1,0 +1,33 @@
+.mainContainer {
+    display: flex;
+    justify-content: space-between;
+    
+    .text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        color: #08090A;
+        gap: 1rem;
+
+        .mainText {
+            font-size: 3.5rem;
+            line-height: 1;
+            letter-spacing: -.07em;
+            font-weight: 700;
+        }
+
+        .secondaryText {
+            font-size: 1.25rem;
+            line-height: 1.75rem;
+            max-width: 500px;
+        }
+    }
+
+    
+    .image {
+        border-radius: 50%;
+        width: 110px;
+        height: 110px;
+        aspect-ratio: 1 / 1;
+    }
+}
