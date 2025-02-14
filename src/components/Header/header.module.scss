@@ -1,6 +1,16 @@
+@import '../../style/costants';
+
 .mainContainer {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 15px;
+    
+    @media (min-width: $tablet) {
+        justify-content: space-between;
+        flex-direction: row;
+        gap: 0;
+    }
     
     .text {
         display: flex;
@@ -8,18 +18,25 @@
         align-items: flex-start;
         color: #08090A;
         gap: 1rem;
-
+        
         .mainText {
-            font-size: 3.5rem;
+            font-size: 2.5rem;
             line-height: 1;
             letter-spacing: -.07em;
             font-weight: 700;
+            text-align: center;
+            @media (min-width: $mobile-medium) {
+                font-size: 3.5rem;
+            }
         }
 
         .secondaryText {
-            font-size: 1.25rem;
+            font-size: 1rem;
             line-height: 1.75rem;
             max-width: 500px;
+            @media (min-width: $mobile-medium) {
+                font-size: 1.25rem;
+            }
         }
     }
 
