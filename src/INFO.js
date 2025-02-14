@@ -24,8 +24,7 @@ export const INFO = [
             {
                 title: 'Samsung Electronics',
                 image: 'https://logos.logofury.com/logo_src/9bd276add5d3550a4e0460e9a865bda4.jpeg',
-                subTitle:
-                    'Samsung Innovation Campus 2022 - Innovative program by Samsung for the training of talented students',
+                subTitle: 'Samsung Innovation Campus 2022',
                 start: '2022-06',
                 end: '2022-12',
                 description: ''

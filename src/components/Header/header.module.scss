@@ -15,9 +15,12 @@
     .text {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         color: #08090A;
         gap: 1rem;
+        @media (min-width: $tablet) {
+            align-items: flex-start;
+        }
         
         .mainText {
             font-size: 2.5rem;
