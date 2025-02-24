@@ -55,19 +55,22 @@ export const INFO = [
         title: 'Skills',
         tags: [
             {
-                label: 'React Js'
+                label: 'React'
             },
             {
                 label: 'Redux'
             },
             {
-                label: 'Scss'
+                label: 'SCSS'
             },
             {
                 label: 'React Native'
             },
             {
                 label: 'Javascript'
+            },
+            {
+                label: 'CSS'
             },
             {
                 label: 'SQL'
