@@ -1,7 +1,7 @@
 export const INFO = [
     {
         title: 'About',
-        text: 'I’m a Software Engineer currently working in the industry while completing my Computer Engineering degree at the University of Pisa. Beyond coding, I’m an avid runner, currently training for a marathon, and I also enjoy playing the piano.'
+        text: 'I’m a Software Engineer currently working in the industry while completing my Computer Engineering degree at the University of Pisa.\n"Hybrid Athlete" because average lifter and slow runner was too long.'
     },
     {
         title: 'Experience',
