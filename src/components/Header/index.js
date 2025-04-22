@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import Foto from '../../assets/foto_tom.jpg';
+
 import styles from './header.module.scss';
 
 class Header extends Component {
@@ -10,10 +12,7 @@ class Header extends Component {
                     <div className={styles.mainText}>Hi, I'm Tommaso 👋</div>
                     <div className={styles.secondaryText}>Software Engineer @ WeGlad</div>
                 </div>
-                <img
-                    className={styles.image}
-                    src="https://media.licdn.com/dms/image/v2/D4D03AQEqaN3DgtEW7Q/profile-displayphoto-shrink_800_800/B4DZOQzrwZHgAg-/0/1733301288747?e=1744848000&v=beta&t=mTbjwscGTQi85tWJD0LFpBov_o3sKwvVB4RMDHd6Hqg"
-                />
+                <img className={styles.image} src={Foto} />
             </section>
         );
     }
